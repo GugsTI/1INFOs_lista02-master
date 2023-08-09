@@ -6,11 +6,17 @@
     */
 
     //ENTRADA
+    const precoJantar = Number(prompt(`Informe qual foi o preço do jantar:`))
+
 
     
     //PROCESSAMENTO
+    const gorjeta = (10/100)
+    const precoFinal = precoJantar * gorjeta
 
     
     //SAÍDA
+    document.write(`valor a pagar da gorjeta: ${precoFinal}R$ <br>`) 
+    document.write(`Valor total: ${precoFinal + precoJantar}R$`)
 
 </script>

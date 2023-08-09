@@ -5,12 +5,16 @@
     Peça para o usuário informar uma temperatura em graus Celsius. Converta e apresente a temperatura em graus Fahrenheit.
     */
 
-    //ENTRADA
+    //ENTRADA]
+    const tempCelsius = Number(prompt(`Informe a temperatura em graus celsius:`))
 
     
     //PROCESSAMENTO
+    const tempFahrenheit = tempCelsius * 1.8 + 32
 
     
     //SAÍDA
+    document.write(`Temperatura em °C: ${tempCelsius} Graus Celsius <br>`)
+    document.write(`A temperatura convertida para °F: ${tempFahrenheit} Graus Fahrenheit`)
 
 </script>

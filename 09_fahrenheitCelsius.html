@@ -6,11 +6,14 @@
     */
 
     //ENTRADA
+    const tempFahrenheit = Number(prompt(`Informe a temperatura em Fahrenheit:`))
 
     
     //PROCESSAMENTO
+    const tempCelsius = (tempFahrenheit - 32) * 5/9
 
     
     //SAÍDA
+    document.write(`Temperatura em Celsius: ${tempCelsius}°C`)
 
 </script>
